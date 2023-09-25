@@ -28,7 +28,7 @@
 #the temperature for the second of two foods, Food B.
  
 
-#Significant Events
+#Significant Events - OPTIONAL
 #We want know if:
 #The smoker temperature decreases by more than 15 degrees F in 2.5 minutes (smoker alert!)
 #Any food temperature changes less than 1 degree F in 10 minutes (food stall!)
@@ -40,4 +40,4 @@
 #Simulate a streaming series of temperature readings from our smart smoker and two foods.
 #Create a producer to send these temperature readings to RabbitMQ.
 #Create three consumer processes, each one monitoring one of the temperature streams. 
-#Perform calculations to determine if a significant event has occurred.
+#Perform calculations to determine if a significant event has occurred. OPTIONAL
