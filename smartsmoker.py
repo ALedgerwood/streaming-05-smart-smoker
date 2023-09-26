@@ -1,5 +1,7 @@
 #Smart Smoker - Module 5
 #Alex Ledgerwood
+#I abandoned this code when I realized I needed separate files for the different compenents.
+#Did not use this
 
 import pandas as pd
 import random
