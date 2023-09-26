@@ -1,9 +1,9 @@
 ### Alex Ledgerwood 9/24/2023
 # streaming-05-smart-smoker
 
-#I used chat gpt to develop the overall structure of the code, comparing its suggestions to the exisitng code of previous projects. I'm pretty pleased with the similarities I was able to keep to existing code blocks #from other modules, as specified in the assignment. Even using AI suggestions for code and existing coure code, I had to do a lot of debugging and ask a lot of follow up questions to keep modifying the code to fit #the assignment objectives, including adding filers in the callbacks to return data from just one column of the csv file per consumer.
+#I used chat gpt to develop the overall structure of the code, comparing its suggestions to the existing code of previous projects. I'm pretty pleased with the similarities I was able to keep to existing code blocks from other modules, as specified in the assignment. Even using AI suggestions for code and existing coure code, I had to do a lot of debugging and ask a lot of follow up questions to keep modifying the code to fit the assignment objectives, including adding filers in the callbacks to return data from just one column of the csv file per consumer.
 
-#I got all three consumers receiving message from the producer, but they were getting the whole csv data. So to ensure that each consumer only receives a subset of the data, I had to implement a message filtering #mechanism. I did this by using message headers or properties to tag the messages and having consumers filter based on those tags. I made these changes to the callback.
+#I got all three consumers receiving messages from the producer, but they were getting the whole csv data. So to ensure that each consumer only receives a subset of the data, I had to implement a message filtering mechanism. I did this by using message headers or properties to tag the messages and having consumers filter based on those tags. I made these changes to the callback.
 
 ###Info on the project from the course site
 
@@ -40,4 +40,4 @@
 #Simulate a streaming series of temperature readings from our smart smoker and two foods.
 #Create a producer to send these temperature readings to RabbitMQ.
 #Create three consumer processes, each one monitoring one of the temperature streams. 
-#Perform calculations to determine if a significant event has occurred. OPTIONAL
+#Perform calculations to determine if a significant event has occurred. 
